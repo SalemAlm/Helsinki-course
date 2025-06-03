@@ -42,3 +42,44 @@
 #     print('Buzz')
 # else: 
 #     print(f'number: {number}')
+
+# Write your solution here
+# while True:
+#     name = input('Shall we continue? ')
+#     print('hi')
+#     if name == "no":
+#      print('okay then')
+#      break
+
+# from math import sqrt
+# # Write your solution here
+# while True:
+#     num = int(input('Please type in a number: '))
+#     if num>0: 
+#         print(sqrt(num))
+#     elif num<0:
+#         print('Invalid number')
+#     elif num==0:
+#         print('Exiting...')
+#         break
+
+
+# number = 5
+# print("Countdown!")
+# while True:
+#   print(number)
+#   number = number - 1
+#   if number == 0:
+#     break
+
+# print("Now!")
+
+# password = input('Password: ')
+# while True: 
+#     second_pass = input('Repeat password: ')
+#     if password != second_pass: 
+#         print('They do not match!')
+#     elif password == second_pass: 
+#         print('User account created!')
+#         break
+    
