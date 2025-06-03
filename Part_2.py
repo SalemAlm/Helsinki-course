@@ -82,4 +82,38 @@
 #     elif password == second_pass: 
 #         print('User account created!')
 #         break
+
+# sen = ""
+# prev =''
+# while True: 
+#     word = input('Please type in a word: ')
+#     if word == "end" or prev == word:
+#         break
+#     sen += word + ' '
+#     prev = word
+# print(sen)
+
+# att = 0
+# summ = 0
+# prev = 0 
+# neg = 0
+# pos = 0 
+# while True: 
+#     print('Please type in integer numbers. Type in 0 to finish.')
+#     num = int(input('Number: '))
+#     att += 1 
+#     summ += num 
+#     if num>0: 
+#         pos=pos + 1
+#     else:
+#         neg= neg + 1
+#     if num == 0 : 
+#             print(f'Numbers typed in {att - 1}')
+#             print(f'The sum of the numbers is {summ}')
+#             print(f'The mean of the numbers is {summ/(att-1)}')
+#             print(f'Positive numbers {pos}')
+#             print(f'Negative numbers {neg-1}')
+#             break
+    
+    
     
