@@ -24,3 +24,12 @@
 # while number<=upper: 
 #     print(number)
 #     number*=2
+
+WORKING WITH STRINGS: 
+
+# word = ''
+# string = input('Please type in a string: ')
+# num = int(input('Please type in an amount: '))
+# word= word+string 
+# print(word*num)
+
