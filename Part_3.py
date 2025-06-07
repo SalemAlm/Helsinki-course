@@ -33,3 +33,31 @@ WORKING WITH STRINGS:
 # word= word+string 
 # print(word*num)
 
+# string1= input('Please type in a string 1: ')
+# string2= input('Please type in a string 2: ')
+# if len(string1)>len(string2):
+#     print(f'{string1} is longer')
+# elif len(string2)>len(string1):
+#     print(f'{string2} is longer')
+# else: 
+#     print("The strings are equally long")
+
+# text = input('Please type in a string: ')
+# for char in reversed(text):
+#     print(char)
+    
+
+#     # Write your solution here
+# text = input('Please type in a string: ')
+# index= len(text)-1
+# while index>=0: 
+#     print(text[index])
+#     index-=1 
+    
+
+#     # Write your solution here
+# text = input('Please type in a string: ')
+# if text[-2]==text[1]:
+#     print(f'The second and the second to last characters are {text[1]}')
+# else: 
+#     print('The second and the second to last characters are different')
