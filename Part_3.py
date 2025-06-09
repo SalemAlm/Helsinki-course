@@ -61,3 +61,68 @@ WORKING WITH STRINGS:
 #     print(f'The second and the second to last characters are {text[1]}')
 # else: 
 #     print('The second and the second to last characters are different')
+
+# wid= int(input('Width: '))
+# print('#' * wid)
+
+# tim=0
+# wid= int(input('Width: '))
+# hei= int(input('Height: '))
+# while hei>tim: 
+#     print('#' * wid)
+#     tim+=1
+
+
+# string= input("Please type in a string: ")
+# while string!='': 
+#     if string!='':
+#         print(string)
+#         print('-'*len(string))
+#         string= input("Please type in a string: ")
+
+#     elif string=='':
+#         break
+    
+
+    # while True: 
+    # string= input('Please type in a string: ')
+    # if string=='':
+    #     break
+    # else: 
+    #     print(string)
+    #     print('-'*len(string))
+
+# string=input('Please type in a string')
+# ast=20-len(string)
+# if len(string)<20:
+#     print((ast*'*')+string)
+# else: 
+#     print(string)
+
+# word=input('word ')
+# frame_width=30
+# padding_tot=30-2-len(word)
+# left= padding_tot//2
+# right=padding_tot-left
+
+# le= ' '* left
+# ri= ' '*right
+
+
+# print(frame_width*'*')
+# print('*'+le+word+ri+'*')
+# print(frame_width*'*')
+
+
+# index=0
+# string=input('Please type in a string: ')
+# while index<=len(string):
+#     print(string[0:index])
+#     index+=1
+
+# string=input('Please type in a string: ')
+# index=len(string)-1
+# while index>=0:
+#     print(string[index:])
+#     index-=1
+
