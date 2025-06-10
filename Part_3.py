@@ -126,3 +126,12 @@ WORKING WITH STRINGS:
 #     print(string[index:])
 #     index-=1
 
+# letter = ['a', 'o', 'e']
+# string = input('Please type in a string: ')
+# while True:
+#     for l in letter:
+#         if l in string:
+#             print(f"{l} found")
+#         else:
+#             print(f"{l} not found")
+#     break
