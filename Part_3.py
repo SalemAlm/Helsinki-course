@@ -145,3 +145,14 @@ WORKING WITH STRINGS:
 #         print(i + 1)
 #     print(i)
 #     i += 2
+
+# def mean(x, y, z):
+#    print((x+y+z)/3)
+
+
+# def print_many_times(x,y):
+#     while y>0: 
+#         print(x)
+#         y-=1
+
+
