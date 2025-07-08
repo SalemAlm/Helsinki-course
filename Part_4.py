@@ -1,14 +1,7 @@
-def line(num,char):
-    print(num*char)
+def line(x,y):
+    if y!='':
+        print(x*y)
+    else:
+        print(x*'*')
 
-
-def box_of_hashes(k):
-    count=0
-    while count<k:
-        line(10,'#')
-        count+=1
-
-
-    
-
-
+line(10,'')
